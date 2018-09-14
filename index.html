@@ -92,12 +92,30 @@
 
 				<section>
 					<section>
-						<h3>
-						current beta
-						</h3>
+						we're beginning with a flexible, centralized infrastructure
+						<br>
+					<pre><code class="hljs" data-trim contenteditable>
+					url: http://data.census.gov/api/endpoints/args
+					{
+					  "services":
+				      [
+					      "endpoints",
+					      "facets",
+					      "locations",
+					      "search",
+					      "states",
+					      "tablemetadata",
+					      "tables",
+					      "typeahead",
+					      "validgeos"
+					     ],
+					     message: "***Welcome to the CEDSCI API***"
+					}
+					</code></pre>
 					</section>
 					<section>
-						<img src="./lib/img/pi13-homepage.png">
+						then building a front-end to prove it out
+						<img src="./lib/img/pi13-homepage.png" alt="single search bar">
 					</section>
 					<section>
 						<img src="./lib/img/all-new.png">
@@ -265,6 +283,9 @@
 					<section>
 						<img src="./lib/img/publications.png" alt="" width="95%">
 					</section>
+					<section>
+						<iframe src="https://api.census.gov/data.json" height="600px" width="600px"></iframe>
+					</section>
 				</section>
 
 
@@ -413,10 +434,12 @@
 
 
 				<section>
-					<h3>
-					thank you!
-					</h3>
-					<p>zachary.richard.whitman@census.gov</p>
+					<section>
+						<h3>we want to hear from you</h3>
+						<hr>
+						<p>cedsci.feedback@census.gov</p>
+						<p>zachary.richard.whitman@census.gov</p>
+					</section>
 				</section>
 
 			</div>
